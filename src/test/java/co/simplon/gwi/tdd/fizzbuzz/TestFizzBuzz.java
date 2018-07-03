@@ -31,4 +31,9 @@ public class TestFizzBuzz {
 		assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(15, 15));
 	}
 	
+	@Test
+	public void shouldReturnMultipleNumberBetweenMinAndMax() {
+		assertEquals("12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz1617Fizz19Buzz", FizzBuzz.fizzBuzz(1, 20));
+	}
+	
 }
